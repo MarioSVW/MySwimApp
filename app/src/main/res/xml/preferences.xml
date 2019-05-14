@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.CheckBoxPreference
+        android:defaultValue="true"
+        android:title="50m Lane Records"
+        android:key="Checkbox_50m"
+        android:summary="Show 50m Lane Activities in Records" />
+
+    <android.support.v7.preference.CheckBoxPreference
+        android:defaultValue="true"
+        android:title="25m Lane Records"
+        android:key="Checkbox_25m"
+        android:summary="Show 25m Lane Activities in Records" />
+
+</PreferenceScreen>
